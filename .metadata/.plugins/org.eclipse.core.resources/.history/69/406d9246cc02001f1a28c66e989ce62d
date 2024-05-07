@@ -1,0 +1,55 @@
+package com.kh.practice.file.view;
+
+import java.util.Scanner;
+
+import com.kh.practice.file.fileController.FileController;
+
+public class FileMenu {
+	//키보드로 입력받을 스캐너 작성
+	Scanner sc = new Scanner(System.in);
+	FileController fc = new FileController();
+	
+	public void mainMenu() {
+		System.out.println("1. 파일저장");
+		System.out.println("2. 파일열기");
+		System.out.println("3. 파일편집");
+		System.out.println("4. 종   료");
+		System.out.println("메뉴 선택 :");
+		
+		int choice = sc.nextInt();
+		sc.nextLine(); //남아있는 엔터 지우기(버퍼지우기)
+		
+		switch(choice) {
+		case 1 : 
+			//파일저장
+			break;
+		case 2 :
+			//파일열기
+			break;
+		case 3 :
+			//파일편집
+			break;
+		case 4 :
+			System.out.println("프로그램 종료");
+			return;
+		default :
+			System.out.println("잘못된 입력입니다.");
+		}
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

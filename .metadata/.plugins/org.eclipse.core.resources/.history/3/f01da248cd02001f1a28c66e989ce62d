@@ -1,0 +1,9 @@
+package com.kh.practice.file.model.dao;
+
+import java.util.*;
+
+public class FileDAo {
+	private Map<String, String> files = new HashMap<>();
+	
+	
+}

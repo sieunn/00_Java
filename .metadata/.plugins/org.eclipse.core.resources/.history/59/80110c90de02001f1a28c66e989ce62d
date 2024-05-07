@@ -1,0 +1,47 @@
+package com.kh.practice.book.view;
+
+import java.util.Scanner;
+
+import com.kh.practice.book.controller.BookController;
+
+public class BookMenu {
+	
+	private Scanner sc = new Scanner(System.in);
+	BookController bc = new BookController();
+	
+	//기본생성자
+	public BookMenu() {
+	}
+
+	public void mainMenu() {
+		
+		while(true) {
+			System.out.println("1.도서 추가 저장");
+			System.out.println("2.저장 도서 출력");
+			System.out.println("9.프로그램 끝내기");
+			
+			int choice = sc.nextInt();
+			sc.nextInt();
+			
+			switch(choice) {
+			case 1 :
+				//
+				break;
+			case 2 :
+				//
+				break;
+			case 9 :
+				System.out.println("프로그램 종료");
+				return;
+			default :
+				System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
+			}
+		}
+		
+		
+	}
+
+
+
+
+}

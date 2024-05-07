@@ -1,0 +1,17 @@
+package ncs.test10;
+
+public class BookUpdate {
+//필드
+	private Book 책정보;
+	
+//메서드
+	//setter
+	//getter
+	//기본생성자
+	//필수생성자
+	
+	public void 책가격변경() {
+		
+		
+	}
+}

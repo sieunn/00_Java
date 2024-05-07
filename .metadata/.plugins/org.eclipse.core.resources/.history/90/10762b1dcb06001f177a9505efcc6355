@@ -1,0 +1,29 @@
+package ncs.test10;
+
+public class Book {
+//필드
+	private String 카테고리;
+	private String 책이름;
+	private double 책가격;
+	private double 할일율;
+	
+//메서드
+	//setter
+	//getter
+	
+	//기본생성자
+	public Book() {
+		
+	}
+	
+	//필수생성자
+	public Book(String 카테고리, String 책이름, double 책가격, double 할일율) {
+	super();
+	this.카테고리 = 카테고리;
+	this.책이름 = 책이름;
+	this.책가격 = 책가격;
+	this.할일율 = 할일율;
+}
+	
+	
+}
